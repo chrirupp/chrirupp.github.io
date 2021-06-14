@@ -5,6 +5,7 @@ author_profile: true
 ---
 
 {% include base_path %}
+* One paper accepted at CVPR 2021 on [finding critical paths in CNNs](https://arxiv.org/abs/2103.16886)
 * One paper on [video clustering](https://arxiv.org/abs/2006.13662) accepted at [NeurIPS 2020](https://neurips.cc/Conferences/2020) [(code)](https://github.com/facebookresearch/selavi)
 * Our work on [unsupervised 3D reconstruction](http://www.robots.ox.ac.uk/~vgg/blog/unsupervised-learning-of-probably-symmetric-deformable-3d-objects-from-images-in-the-wild.html) has received the Best Paper Award at CVPR 2020 with 
 * Two papers accepted at [CVPR 2020](http://cvpr2020.thecvf.com//): on [unsupervised 3D from single image](https://arxiv.org/abs/1911.11130) (oral, [blog post](http://www.robots.ox.ac.uk/~vgg/blog/unsupervised-learning-of-probably-symmetric-deformable-3d-objects-from-images-in-the-wild.html), [code](https://github.com/elliottwu/unsup3d)) and semantic scene manipulation ([code](https://github.com/he-dhamo/simsg), [project page](https://he-dhamo.github.io/SIMSG/))
