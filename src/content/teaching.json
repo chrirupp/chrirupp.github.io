@@ -1,0 +1,24 @@
+{
+  "currentCourses": [
+    {
+      "name": "Computer Vision",
+      "code": "CV",
+      "description": "This is an advanced course in modern computer vision and machine learning. It contains fundamental concepts from classical computer vision: filtering, matching, indexing and 3D computer vision. On top of that, a large portion of the course focuses on current computer vision methodologies and problems, which build on top of deep learning techniques: detection, segmentation, generation, and vision and language models. This course will introduce the fundamental mathematical concepts behind these tasks and how they can be integrated into modern machine-learning models. The taught material and assessment include both theoretical derivations as well as applied implementations, and students are expected to be proficient with both.",
+      "semester": "Hilary Term 2025",
+      "link": "https://www.cs.ox.ac.uk/teaching/courses/2024-2025/vision/",
+      "past years": [
+        {
+          "year": "2025",
+          "link": "https://www.cs.ox.ac.uk/teaching/courses/2024-2025/vision/"
+        },
+        {
+          "year": "2024",
+          "link": "https://www.cs.ox.ac.uk/teaching/courses/2023-2024/vision/"
+        }
+      ]
+    }
+  ],
+  "pastCourses": [
+
+  ]
+} 

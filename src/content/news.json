@@ -1,0 +1,738 @@
+{
+  "newsItems": [
+    {
+        "date": "March 2025",
+        "title": "Six papers accepted at CVPR'25",
+        "description": "Papers accepted: AnyCam, DualPM, FLARE, Unbiasing Video Datasets, CUPS, and VGGT",
+        "type": "publication",
+        "conference": "CVPR'25",
+        "links": [
+            {
+                "text": "AnyCam",
+                "url": "https://fwmb.github.io/anycam/"
+            },
+            {
+                "text": "DualPM",
+                "url": "https://arxiv.org/pdf/2412.04464"
+            },
+            {
+                "text": "FLARE",
+                "url": "https://arxiv.org/pdf/2502.12138"
+            },
+            {
+                "text": "Unbiasing Video Datasets",
+                "url": "https://arxiv.org/pdf/2503.18637"
+            },
+            {
+                "text": "CUPS",
+                "url": "https://olvrhhn.github.io/"
+            },
+            {
+                "text": "VGGT",
+                "url": "https://arxiv.org/pdf/2503.11651"
+            }
+        ]
+    },
+    {
+        "date": "November 2024",
+        "title": "Two papers accepted at 3DV'25",
+        "description": "Papers accepted: InvisibleStitch and Flash3D",
+        "type": "publication",
+        "conference": "3DV'25",
+        "links": [
+            {
+                "text": "InvisibleStitch",
+                "url": "https://arxiv.org/pdf/2404.19758"
+            },
+            {
+                "text": "Flash3D",
+                "url": "https://arxiv.org/pdf/2406.04343"
+            }
+        ]
+    },
+    {
+        "date": "September 2024",
+        "title": "Paper accepted at NeurIPS'24",
+        "description": "Paper accepted: Learning segmentation from point trajectories",
+        "type": "publication",
+        "conference": "NeurIPS'24",
+        "links": [
+            {
+                "text": "Paper",
+                "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/cc57fac10eacadb3b72a907ac48f9a98-Paper-Conference.pdf"
+            }
+        ]
+    },
+    {
+        "date": "July 2024",
+        "title": "Nine papers accepted at ECCV'24",
+        "description": "Papers accepted: Instance Augmentations, OVDiff, Object Stylization, DragAPart, HowToCaption, CoTracker, SHIC, SuperResolution and Scaling Backwards",
+        "type": "publication",
+        "conference": "ECCV'24",
+        "links": [
+            {
+                "text": "Instance Augmentations",
+                "url": "https://arxiv.org/pdf/2406.08249"
+            },
+            {
+                "text": "OVDiff",
+                "url": "https://arxiv.org/pdf/2306.09316"
+            },
+            {
+                "text": "Object Stylization",
+                "url": "https://arxiv.org/pdf/2312.12419"
+            },
+            {
+                "text": "DragAPart",
+                "url": "https://arxiv.org/pdf/2403.15382"
+            },
+            {
+                "text": "HowToCaption",
+                "url": "https://arxiv.org/pdf/2310.04900"
+            },
+            {
+                "text": "CoTracker",
+                "url": "https://arxiv.org/pdf/2307.07635"
+            },
+            {
+                "text": "SHIC",
+                "url": "https://arxiv.org/pdf/2407.18907"
+            },
+            {
+                "text": "SuperResolution",
+                "url": "https://arxiv.org/pdf/2409.00768"
+            },
+            {
+                "text": "Scaling Backwards",
+                "url": "https://arxiv.org/pdf/2408.00677"
+            }
+        ]
+    },
+    {
+        "date": "June 2024",
+        "title": "Teaching Award for Computer Vision",
+        "description": "I have been awarded a Department Teaching Award, based on student feedback for my new course Computer Vision.",
+        "type": "award",
+        "links": [
+            {
+                "text": "Award",
+                "url": "https://www.cs.ox.ac.uk/news/2334-full.html"
+            }
+        ]
+    },
+    {
+        "date": "May 2024",
+        "title": "Paper accepted at ICML'24",
+        "description": "Paper accepted: IM-3D",
+        "type": "publication",
+        "conference": "ICML'24",
+        "links": [
+            {
+                "text": "Paper",
+                "url": "https://arxiv.org/pdf/2402.08682"
+            }
+        ]
+    },
+    {
+        "date": "April 2024",
+        "title": "State of the Art Report accepted at Computer Graphics Forum",
+        "description": "Recent Trends in 3D Reconstruction of General Non-Rigid Scenes",
+        "type": "publication",
+        "conference": "Computer Graphics Forum",
+        "links": [
+            {
+                "text": "Paper",
+                "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15062"
+            }
+        ]
+    },
+    {
+        "date": "March 2024",
+        "title": "Amazon Research Award",
+        "description": "Awarded Amazon Research Award for Viewset Diffusion for Probabilistic 3D Reconstruction",
+        "type": "award",
+        "links": [
+            {
+                "text": "Award",
+                "url": "https://www.amazon.science/research-awards/recipients/christian-rupprecht"
+            }
+        ]
+    },
+    {
+      "date": "March 2024",
+      "title": "Paper accepted at CVPR'24",
+      "description": "Papers accepted: SplatterImage, VGGSfM, 3DFauna, and Cache Me if You Can",
+      "type": "publication",
+      "conference": "CVPR'24",
+      "links": [
+        {
+          "text": "SplatterImage",
+          "url": "https://arxiv.org/abs/2312.13150"
+        },
+        {
+          "text": "VGGSfM",
+          "url": "https://arxiv.org/abs/2312.04563"
+        },
+        {
+          "text": "3DFauna",
+          "url": "https://arxiv.org/abs/2401.02400"
+        },
+        {
+          "text": "Cache Me if You Can",
+          "url": "https://arxiv.org/abs/2312.03209"
+        }
+      ]
+    },
+    {
+      "date": "February 2024",
+      "title": "Two papers accepted at 3DV'24",
+      "description": "Papers accepted: Farm3D and S4C (spotlight)",
+      "type": "publication",
+      "conference": "3DV'24",
+      "links": [
+        {
+          "text": "Farm3D",
+          "url": "https://arxiv.org/abs/2304.10535"
+        },
+        {
+          "text": "S4C",
+          "url": "https://arxiv.org/pdf/2310.07522"
+        }
+      ]
+    },
+    {
+      "date": "October 2023",
+      "title": "Three papers accepted at ICCV'23",
+      "description": "Papers accepted: RedCircle (oral), Viewset Diffusion, and Pose Diffusion",
+      "type": "publication",
+      "conference": "ICCV'23",
+      "links": [
+        {
+          "text": "RedCircle",
+          "url": "https://arxiv.org/abs/2304.06712"
+        },
+        {
+          "text": "Viewset Diffusion",
+          "url": "https://arxiv.org/abs/2306.07881"
+        },
+        {
+          "text": "Pose Diffusion",
+          "url": "https://arxiv.org/abs/2306.15667"
+        }
+      ]
+    },
+    {
+      "date": "June 2023",
+      "title": "Six papers accepted at CVPR'23",
+      "description": "Papers accepted: BehindTheScenes, ContinualObjectDetection, DynamicStereo, MagicPony, PointCloudDiffusion, and RealFusion",
+      "type": "publication",
+      "conference": "CVPR'23",
+      "links": [
+        {
+          "text": "BehindTheScenes",
+          "url": "https://arxiv.org/abs/2301.07668"
+        },
+        {
+          "text": "ContinualObjectDetection",
+          "url": "https://arxiv.org/abs/2305.02296"
+        },
+        {
+          "text": "DynamicStereo",
+          "url": "https://arxiv.org/abs/2305.02296"
+        },
+        {
+          "text": "MagicPony",
+          "url": "https://arxiv.org/abs/2211.12497"
+        },
+        {
+          "text": "PointCloudDiffusion",
+          "url": "https://arxiv.org/abs/2302.10668"
+        },
+        {
+          "text": "RealFusion",
+          "url": "https://arxiv.org/abs/2302.10663"
+        }
+      ]
+    },
+    {
+      "date": "May 2023",
+      "title": "Paper accepted at ICLR'23",
+      "description": "Paper on contrastive learning on long-tailed data accepted",
+      "type": "publication",
+      "conference": "ICLR'23",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "https://openreview.net/forum?id=ejHUr4nfHhD"
+        }
+      ]
+    },
+    {
+      "date": "March 2023",
+      "title": "Area Chair for CVPR'23",
+      "description": "Appointed as area chair for CVPR'23",
+      "type": "service"
+    },
+    {
+      "date": "December 2022",
+      "title": "Paper accepted at NeurIPS'22",
+      "description": "Paper on unsupervised video segmentation accepted",
+      "type": "publication",
+      "conference": "NeurIPS'22"
+    },
+    {
+      "date": "October 2022",
+      "title": "Paper accepted at ECCV'22",
+      "description": "Paper on multi-modal video understanding accepted",
+      "type": "publication",
+      "conference": "ECCV'22"
+    },
+    {
+      "date": "September 2022",
+      "title": "Invited Speaker at Rank Symposium",
+      "description": "Invited speaker at the Rank Symposium on Neural Rendering",
+      "type": "presentation"
+    },
+    {
+      "date": "August 2022",
+      "title": "Lecture at BMVA Summer School",
+      "description": "Gave a lecture on 'Unsupervised Learning in Computer Vision' at the BMVA summer school",
+      "type": "teaching"
+    },
+    {
+      "date": "June 2022",
+      "title": "Two papers accepted at CVPR'22",
+      "description": "Papers on spectral clustering (oral) and weakly supervised derendering accepted",
+      "type": "publication",
+      "conference": "CVPR'22",
+      "links": [
+        {
+          "text": "Spectral Clustering",
+          "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Melas-Kyriazi_Deep_Spectral_Methods_A_Surprisingly_Strong_Baseline_for_Unsupervised_Semantic_CVPR_2022_paper.html"
+        },
+        {
+          "text": "Weakly Supervised Derendering",
+          "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Wimbauer_De-Rendering_3D_Objects_in_the_Wild_CVPR_2022_paper.html"
+        }
+      ]
+    },
+    {
+      "date": "November 2021",
+      "title": "Best Student Paper Award at BMVC'21",
+      "description": "Our BMVC'21 paper received the Best Student Paper award!",
+      "type": "award",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "https://www.robots.ox.ac.uk/~vgg/research/clever/"
+        }
+      ]
+    },
+    {
+      "date": "October 2021",
+      "title": "Workshop Videos Online",
+      "description": "Videos for our Unsupervised 3D Learning in the Wild workshop at ICCV21 are now online",
+      "type": "event",
+      "links": [
+        {
+          "text": "Workshop Website",
+          "url": "https://unsup3d.github.io/"
+        }
+      ]
+    },
+    {
+      "date": "September 2021",
+      "title": "Paper accepted at NeurIPS 2021",
+      "description": "Paper on unsupervised object part segmentation accepted",
+      "type": "publication",
+      "conference": "NeurIPS 2021",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "https://www.robots.ox.ac.uk/~vgg/research/unsup-parts/"
+        }
+      ]
+    },
+    {
+      "date": "September 2021",
+      "title": "Two papers accepted at NeurIPS 2021 Datasets & Benchmarks",
+      "description": "Papers on ImageNet replacement and ClevrTex dataset accepted",
+      "type": "publication",
+      "conference": "NeurIPS 2021",
+      "links": [
+        {
+          "text": "ImageNet Replacement",
+          "url": "https://www.robots.ox.ac.uk/~vgg/research/pass/"
+        },
+        {
+          "text": "ClevrTex",
+          "url": "https://www.robots.ox.ac.uk/~vgg/research/clevrtex/"
+        }
+      ]
+    },
+    {
+      "date": "September 2021",
+      "title": "Paper accepted at BMVC 2021",
+      "description": "Paper on layman supervised classification using external knowledge accepted (oral)",
+      "type": "publication",
+      "conference": "BMVC 2021",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "https://www.robots.ox.ac.uk/~vgg/research/clever/"
+        }
+      ]
+    },
+    {
+      "date": "September 2021",
+      "title": "Departmental Lecturer at VGG Oxford",
+      "description": "Started position as Departmental Lecturer at VGG Oxford",
+      "type": "position"
+    },
+    {
+      "date": "June 2021",
+      "title": "Paper accepted at CVPR 2021",
+      "description": "Paper on finding critical paths in CNNs accepted",
+      "type": "publication",
+      "conference": "CVPR 2021",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "https://arxiv.org/abs/2103.16886"
+        }
+      ]
+    },
+    {
+      "date": "December 2020",
+      "title": "Paper accepted at NeurIPS 2020",
+      "description": "Paper on video clustering accepted",
+      "type": "publication",
+      "conference": "NeurIPS 2020",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "https://arxiv.org/abs/2006.13662"
+        },
+        {
+          "text": "Code",
+          "url": "https://github.com/facebookresearch/selavi"
+        }
+      ]
+    },
+    {
+      "date": "June 2020",
+      "title": "Best Paper Award at CVPR 2020",
+      "description": "Our work on unsupervised 3D reconstruction received the Best Paper Award at CVPR 2020",
+      "type": "award",
+      "links": [
+        {
+          "text": "Blog Post",
+          "url": "http://www.robots.ox.ac.uk/~vgg/blog/unsupervised-learning-of-probably-symmetric-deformable-3d-objects-from-images-in-the-wild.html"
+        }
+      ]
+    },
+    {
+      "date": "June 2020",
+      "title": "Two papers accepted at CVPR 2020",
+      "description": "Papers on unsupervised 3D from single image (oral) and semantic scene manipulation accepted",
+      "type": "publication",
+      "conference": "CVPR 2020",
+      "links": [
+        {
+          "text": "Unsupervised 3D",
+          "url": "https://arxiv.org/abs/1911.11130"
+        },
+        {
+          "text": "Blog Post",
+          "url": "http://www.robots.ox.ac.uk/~vgg/blog/unsupervised-learning-of-probably-symmetric-deformable-3d-objects-from-images-in-the-wild.html"
+        },
+        {
+          "text": "Code",
+          "url": "https://github.com/elliottwu/unsup3d"
+        },
+        {
+          "text": "Semantic Scene Manipulation",
+          "url": "https://github.com/he-dhamo/simsg"
+        },
+        {
+          "text": "Project Page",
+          "url": "https://he-dhamo.github.io/SIMSG/"
+        }
+      ]
+    },
+    {
+      "date": "April 2020",
+      "title": "Three papers accepted at ICLR 2020",
+      "description": "Papers on self-labelling (spotlight), learning from one image, and RL visualization accepted",
+      "type": "publication",
+      "conference": "ICLR 2020",
+      "links": [
+        {
+          "text": "Self-labelling",
+          "url": "https://openreview.net/forum?id=Skl993R_PB"
+        },
+        {
+          "text": "Blog Post",
+          "url": "http://www.robots.ox.ac.uk/~vgg/blog/self-labelling-via-simultaneous-clustering-and-representation-learning.html"
+        },
+        {
+          "text": "Code",
+          "url": "https://github.com/yukimasano/self-label"
+        },
+        {
+          "text": "Learning from One Image",
+          "url": "https://openreview.net/forum?id=ryxR4F4Lwr"
+        },
+        {
+          "text": "RL Visualization",
+          "url": "https://openreview.net/forum?id=HJxVCkTwDH"
+        }
+      ]
+    },
+    {
+      "date": "December 2019",
+      "title": "2nd Place at Traffic4cast Challenge",
+      "description": "Our team won 2nd place at the traffic4cast challenge at NeurIPS",
+      "type": "award",
+      "links": [
+        {
+          "text": "Challenge",
+          "url": "https://www.iarai.ac.at/traffic4cast/forums/topic/4238/"
+        }
+      ]
+    },
+    {
+      "date": "October 2019",
+      "title": "Two papers accepted at ICCV 2019",
+      "description": "Papers on Unsupervised Captioning and 6DoF Pose Estimation accepted",
+      "type": "publication",
+      "conference": "ICCV 2019",
+      "links": [
+        {
+          "text": "Unsupervised Captioning",
+          "url": "https://arxiv.org/abs/1908.09317"
+        },
+        {
+          "text": "6DoF Pose Estimation",
+          "url": "https://arxiv.org/abs/1812.00287"
+        }
+      ]
+    },
+    {
+      "date": "September 2019",
+      "title": "Paper accepted in Nature Scientific Reports",
+      "description": "Paper accepted in Nature Scientific Reports",
+      "type": "publication",
+      "journal": "Nature Scientific Reports",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "https://www.nature.com/articles/s41598-019-43951-8"
+        }
+      ]
+    },
+    {
+      "date": "September 2019",
+      "title": "PhD Defense",
+      "description": "Successfully defended PhD at TUM (summa cum laude - with highest distinction)",
+      "type": "education",
+      "links": [
+        {
+          "text": "Thesis",
+          "url": "http://mediatum.ub.tum.de/?id=1446678"
+        }
+      ]
+    },
+    {
+      "date": "December 2018",
+      "title": "Paper accepted at ACCV 2018",
+      "description": "Paper accepted at ACCV 2018",
+      "type": "publication",
+      "conference": "ACCV 2018",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "https://arxiv.org/abs/1811.00793"
+        }
+      ]
+    },
+    {
+      "date": "September 2018",
+      "title": "Joined VGG at University of Oxford",
+      "description": "Joined VGG at the University of Oxford",
+      "type": "position"
+    },
+    {
+      "date": "June 2018",
+      "title": "Paper accepted at CVPR 2018",
+      "description": "Paper accepted at CVPR 2018",
+      "type": "publication",
+      "conference": "CVPR 2018",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "https://arxiv.org/abs/1803.11544"
+        }
+      ]
+    },
+    {
+      "date": "January 2018",
+      "title": "Internship at MILA",
+      "description": "Spending 4 months as an intern at MILA with Chris Pal until May 2018",
+      "type": "position"
+    },
+    {
+      "date": "2017",
+      "title": "BaCaTeC Project with Stanford",
+      "description": "BaCaTeC funded project with Leonidas J. Guibas on 3D reconstruction and retrieval",
+      "type": "project"
+    },
+    {
+      "date": "October 2017",
+      "title": "Doctoral Consortium at ICCV 2017",
+      "description": "Presented at the Doctoral Consortium at ICCV 2017",
+      "type": "presentation"
+    },
+    {
+      "date": "September 2017",
+      "title": "Paper accepted at CVIU",
+      "description": "Paper accepted at Computer Vision and Image Understanding",
+      "type": "publication",
+      "journal": "CVIU",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "http://www.sciencedirect.com/science/article/pii/S1077314217301406"
+        }
+      ]
+    },
+    {
+      "date": "May 2017",
+      "title": "Talk at Nvidia GTC",
+      "description": "Talk at Nvidia GTC in San Jose, California on deep learning for 3D scene understanding",
+      "type": "presentation",
+      "links": [
+        {
+          "text": "Talk",
+          "url": "https://gputechconf2017.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=112885"
+        }
+      ]
+    },
+    {
+      "date": "October 2016",
+      "title": "Paper accepted at ICCV 2017",
+      "description": "Paper accepted at ICCV 2017",
+      "type": "publication",
+      "conference": "ICCV 2017",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "http://campar.in.tum.de/Chair/PublicationDetail?pub=rupprecht2017iccv"
+        }
+      ]
+    },
+    {
+      "date": "September 2016",
+      "title": "Paper accepted at MICCAI 2017",
+      "description": "Paper accepted at MICCAI 2017",
+      "type": "publication",
+      "conference": "MICCAI 2017",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "http://campar.in.tum.de/Chair/PublicationDetail?pub=rieke2017miccai"
+        }
+      ]
+    },
+    {
+      "date": "September 2016",
+      "title": "Paper accepted at Nature Scientific Reports",
+      "description": "Paper accepted at Nature Scientific Reports",
+      "type": "publication",
+      "journal": "Nature Scientific Reports",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "https://www.nature.com/articles/s41598-017-01779-0.epdf"
+        }
+      ]
+    },
+    {
+      "date": "October 2015",
+      "title": "Paper accepted at 3DV 2016",
+      "description": "Paper accepted at 3DV 2016",
+      "type": "publication",
+      "conference": "3DV 2016",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "http://campar.in.tum.de/Chair/PublicationDetail?pub=laina2016depth"
+        }
+      ]
+    },
+    {
+      "date": "September 2015",
+      "title": "Paper accepted at LABELS 2016",
+      "description": "Paper accepted at LABELS 2016",
+      "type": "publication",
+      "conference": "LABELS 2016"
+    },
+    {
+      "date": "September 2015",
+      "title": "Depth Prediction GitHub Page Online",
+      "description": "Depth Prediction GitHub page is online",
+      "type": "project",
+      "links": [
+        {
+          "text": "GitHub",
+          "url": "https://github.com/iro-cp/FCRN-DepthPrediction"
+        }
+      ]
+    },
+    {
+      "date": "September 2015",
+      "title": "Paper accepted at IROS 2016",
+      "description": "Paper accepted at IROS 2016",
+      "type": "publication",
+      "conference": "IROS 2016"
+    },
+    {
+      "date": "2015",
+      "title": "BaCaTeC Project with Stanford",
+      "description": "BaCaTeC funded project with Silvio Savarese and Lamberto Ballan on Webly supervised human activity recognition",
+      "type": "project",
+      "links": [
+        {
+          "text": "Project",
+          "url": "http://campar.in.tum.de/Students/MaWeblySupHAR"
+        }
+      ]
+    },
+    {
+      "date": "2015",
+      "title": "Feature Visualization Paper and Library",
+      "description": "Feature Visualization Paper and Library presented at an ICML workshop",
+      "type": "project",
+      "links": [
+        {
+          "text": "Project",
+          "url": "http://campar.in.tum.de/Chair/FeatVis"
+        }
+      ]
+    },
+    {
+      "date": "2015",
+      "title": "Paper accepted at ICCV 2015",
+      "description": "Paper accepted at ICCV 2015",
+      "type": "publication",
+      "conference": "ICCV 2015"
+    },
+    {
+      "date": "2015",
+      "title": "Paper accepted at CVPR 2015",
+      "description": "Paper accepted at CVPR 2015",
+      "type": "publication",
+      "conference": "CVPR 2015"
+    }
+  ]
+} 

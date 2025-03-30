@@ -1,0 +1,200 @@
+{
+  "currentStudents": [
+    {
+      "name": "Gabrijel Boduljak",
+      "degree": "PhD Student",
+      "startYear": 2024,
+      "image": null,
+      "website": "https://gabrijel-boduljak.com/",
+      "coSupervisors": "A. Vedaldi and I. Laina"
+    },
+    {
+      "name": "Yuanwen Yue",
+      "degree": "ELLIS PhD Student",
+      "startYear": 2024,
+      "image": null,
+      "website": "https://n.ethz.ch/~yuayue/",
+      "coSupervisors": "K. Schindler"
+    },
+    {
+      "name": "Jelena Bratulic",
+      "degree": "ELLIS PhD Student",
+      "startYear": 2024,
+      "image": null,
+      "website": "https://scholar.google.com/citations?user=Y7GCFsAAAAAJ&hl=en",
+      "coSupervisors": "T. Brox"
+    },
+    {
+      "name": "Christoph Reich",
+      "degree": "ELLIS PhD Student",
+      "startYear": 2023,
+      "image": null,
+      "website": "https://christophreich1996.github.io/",
+      "coSupervisors": "S. Roth and C. Cremers"
+    },
+    {
+      "name": "Jayroop Ramesh",
+      "degree": "PhD Student",
+      "startYear": 2023,
+      "image": null,
+      "website": "https://scholar.google.com/citations?user=T6jQ738AAAAJ",
+      "coSupervisors": "A. Namburete"
+    },
+    {
+      "name": "Orest Kupyn",
+      "degree": "PhD Student",
+      "startYear": 2023,
+      "image": null,
+      "website": "https://scholar.google.com/citations?user=KoC7bP4AAAAJ",
+      "coSupervisors": null
+    },
+    {
+      "name": "Paul Engstler",
+      "degree": "PhD Student",
+      "startYear": 2023,
+      "image": null,
+      "website": "https://paulengstler.com/",
+      "coSupervisors": "A. Vedaldi and I. Laina"
+    },
+    {
+      "name": "Olaf Dünkel",
+      "degree": "ELLIS PhD Student",
+      "startYear": 2023,
+      "image": null,
+      "website": "https://people.mpi-inf.mpg.de/~oduenkel/",
+      "coSupervisors": "A. Kortylewski and C. Theobalt"
+    },
+    {
+      "name": "Ruining Li",
+      "degree": "PhD Student",
+      "startYear": 2023,
+      "image": null,
+      "website": "https://scholar.google.co.uk/citations?user=JmQkXLUAAAAJ",
+      "coSupervisors": "A. Vedaldi"
+    },
+    {
+      "name": "Oishi Deb",
+      "degree": "PhD Student",
+      "startYear": 2023,
+      "image": null,
+      "website": "https://shallowtoil.github.io/",
+      "coSupervisors": "P. Torr"
+    },
+    {
+      "name": "Jensen Zhou ",
+      "degree": "PhD Student",
+      "startYear": 2022,
+      "image": null,
+      "website": "https://scholar.google.com/citations?user=T6jQ738AAAAJ",
+      "coSupervisors": "P. Torr"
+    },
+    {
+      "name": "Lorenza Prospero",
+      "degree": "PhD Student",
+      "startYear": 2022,
+      "image": null,
+      "website": "https://eng.ox.ac.uk/people/lorenza-prospero/",
+      "coSupervisors": "J. Henriques"
+    },
+    {
+      "name": "Stanislaw Szymanowicz",
+      "degree": "PhD Student",
+      "startYear": 2022,
+      "image": null,
+      "website": "https://szymanowiczs.github.io/",
+      "coSupervisors": "A. Vedaldi"
+    },
+    {
+      "name": "Jianyuan Wang",
+      "degree": "PhD Student",
+      "startYear": 2022,
+      "image": null,
+      "website": "https://jytime.github.io/",
+      "coSupervisors": null
+    },
+    {
+      "name": "Felix Wimbauer",
+      "degree": "ELLIS PhD Student",
+      "startYear": 2022,
+      "image": null,
+      "website": "https://fwmb.github.io/",
+      "coSupervisors": "D. Cremers"
+    },
+    {
+      "name": "Nikita Karaev",
+      "degree": "PhD Student",
+      "startYear": 2021,
+      "image": null,
+      "website": "https://nikitakaraevv.github.io/",
+      "coSupervisors": null
+    },
+    {
+      "name": "Nina Shvetsova",
+      "degree": "ELLIS PhD Student",
+      "startYear": 2021,
+      "image": null,
+      "website": "https://ninatu.github.io/",
+      "coSupervisors": "H. Kuehne"
+    },
+    {
+      "name": "Aleksandar Shtedritski",
+      "degree": "PhD Student",
+      "startYear": 2021,
+      "image": null,
+      "website": "https://suny-sht.github.io/",
+      "coSupervisors": "A. Vedaldi"
+    },
+    {
+      "name": "Laurynas Karazija",
+      "degree": "PhD Student",
+      "startYear": 2021,
+      "image": null,
+      "website": "https://karazijal.github.io/",
+      "coSupervisors": "A. Vedaldi and I. Laina"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Luke Melas-Kyriazi",
+      "degree": "PhD 2025",
+      "image": null,
+      "website": "https://lukemelas.github.io/",
+      "coSupervisors": "A. Vedaldi and I. Laina"
+    },
+    {
+      "name": "Anna Kukleva",
+      "degree": "ELLIS PhD 2024",
+      "image": null,
+      "website": "https://annusha.github.io/",
+      "coSupervisors": "B. Schiele and H. Kuehne"
+    },
+    {
+      "name": "Subhabrata Choudhury",
+      "degree": "PhD 2023",
+      "image": null,
+      "website": "https://subhabratachoudhury.com/",
+      "coSupervisors": "A. Vedaldi and I. Laina"
+    },
+    {
+      "name": "Yaoyao Liu",
+      "degree": "ELLIS PhD 2023",
+      "image": null,
+      "website": "https://yaoyaoliu.web.illinois.edu/",
+      "coSupervisors": "B. Schiele"
+    },
+    {
+      "name": "Shangzhe Wu",
+      "degree": "PhD 2022",
+      "image": null,
+      "website": "https://elliottwu.com/",
+      "coSupervisors": "A. Vedaldi"
+    },
+    {
+      "name": "Yuki M. Asano",
+      "degree": "PhD 2021",
+      "image": null,
+      "website": "https://yukimasano.github.io/",
+      "coSupervisors": "A. Vedaldi"
+    }
+  ]
+} 
