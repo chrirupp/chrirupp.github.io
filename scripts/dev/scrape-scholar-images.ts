@@ -1,8 +1,8 @@
-import puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer-core';
 import sharp from 'sharp';
 import fs from 'fs';
 import path from 'path';
-import teamData from '../src/content/team.json';
+import teamData from '../../src/content/team.json';
 
 interface TeamMember {
   name: string;
