@@ -1,6 +1,8 @@
 import profileData from '@/content/profile.json';
 import newsData from '@/content/news.json';
 import Image from 'next/image';
+import { FaGithub } from 'react-icons/fa';
+import { SiGooglescholar } from 'react-icons/si';
 
 export default function Home() {
   // Get the 5 most recent news items
@@ -27,6 +29,26 @@ export default function Home() {
               {profileData.department}<br />
               {profileData.university}
             </p>
+            <div className="flex justify-center space-x-6 mt-4">
+              <a
+                href={profileData.socialLinks.googleScholar}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-blue-600 transition-colors"
+                title="Google Scholar"
+              >
+                <SiGooglescholar className="w-6 h-6" />
+              </a>
+              <a
+                href={profileData.socialLinks.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-blue-600 transition-colors"
+                title="GitHub"
+              >
+                <FaGithub className="w-6 h-6" />
+              </a>
+            </div>
           </div>
         </div>
       </section>
