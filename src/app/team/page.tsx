@@ -1,10 +1,13 @@
 import teamData from '@/content/team.json';
+import Image from 'next/image';
+import { SiGooglescholar } from 'react-icons/si';
 
 interface TeamMember {
   name: string;
   degree: string;
   image: string | null;
   website: string | null;
+  googleScholar: string | null;
   startYear?: number;
   coSupervisors: string | null;
 }
@@ -48,6 +51,39 @@ function WebsiteButton({ url }: { url: string }) {
   );
 }
 
+function GoogleScholarButton({ url }: { url: string }) {
+  const fullUrl = `https://scholar.google.com/citations?user=${url}&hl=en`;
+  return (
+    <a
+      href={fullUrl}
+      className="inline-flex items-center px-2.5 py-1.5 text-xs font-medium text-blue-700 bg-blue-100 rounded hover:bg-blue-200 transition-colors mt-2 ml-2"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <SiGooglescholar className="w-3 h-3 mr-1" />
+      Scholar
+    </a>
+  );
+}
+
+function TeamMemberImage({ member }: { member: TeamMember }) {
+  if (member.image) {
+    return (
+      <div className="w-24 h-24 relative rounded-full overflow-hidden">
+        <Image
+          src={member.image}
+          alt={member.name}
+          fill
+          className="object-cover"
+          sizes="(max-width: 96px) 100vw, 96px"
+        />
+      </div>
+    );
+  }
+
+  return <PlaceholderImage name={member.name} />;
+}
+
 export default function Team() {
   // Sort current students by startYear (descending) and then by name (alphabetically)
   const sortedCurrentStudents = [...typedTeamData.currentStudents].sort((a, b) => {
@@ -67,7 +103,7 @@ export default function Team() {
           {sortedCurrentStudents.map((student, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-start space-x-4">
-                <PlaceholderImage name={student.name} />
+                <TeamMemberImage member={student} />
                 <div>
                   <h3 className="text-xl font-medium mb-1">{student.name}</h3>
                   <p className="text-gray-600">
@@ -78,7 +114,10 @@ export default function Team() {
                       with {student.coSupervisors}
                     </p>
                   )}
-                  {student.website && <WebsiteButton url={student.website} />}
+                  <div className="flex flex-wrap gap-2">
+                    {student.website && <WebsiteButton url={student.website} />}
+                    {student.googleScholar && <GoogleScholarButton url={student.googleScholar} />}
+                  </div>
                 </div>
               </div>
             </div>
@@ -93,7 +132,7 @@ export default function Team() {
           {typedTeamData.alumni.map((alum, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-start space-x-4">
-                <PlaceholderImage name={alum.name} />
+                <TeamMemberImage member={alum} />
                 <div>
                   <h3 className="text-xl font-medium mb-1">{alum.name}</h3>
                   <p className="text-gray-600">{alum.degree}</p>
@@ -102,7 +141,10 @@ export default function Team() {
                       with {alum.coSupervisors}
                     </p>
                   )}
-                  {alum.website && <WebsiteButton url={alum.website} />}
+                  <div className="flex flex-wrap gap-2">
+                    {alum.website && <WebsiteButton url={alum.website} />}
+                    {alum.googleScholar && <GoogleScholarButton url={alum.googleScholar} />}
+                  </div>
                 </div>
               </div>
             </div>
