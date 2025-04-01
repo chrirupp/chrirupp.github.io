@@ -13,15 +13,15 @@
             },
             {
                 "text": "DualPM",
-                "url": "https://arxiv.org/pdf/2412.04464"
+                "url": "https://arxiv.org/abs/2412.04464"
             },
             {
                 "text": "FLARE",
-                "url": "https://arxiv.org/pdf/2502.12138"
+                "url": "https://arxiv.org/abs/2502.12138"
             },
             {
                 "text": "Unbiasing Video Datasets",
-                "url": "https://arxiv.org/pdf/2503.18637"
+                "url": "https://arxiv.org/abs/2503.18637"
             },
             {
                 "text": "CUPS",
@@ -29,7 +29,7 @@
             },
             {
                 "text": "VGGT",
-                "url": "https://arxiv.org/pdf/2503.11651"
+                "url": "https://arxiv.org/abs/2503.11651"
             }
         ]
     },
@@ -42,11 +42,11 @@
         "links": [
             {
                 "text": "InvisibleStitch",
-                "url": "https://arxiv.org/pdf/2404.19758"
+                "url": "https://arxiv.org/abs/2404.19758"
             },
             {
                 "text": "Flash3D",
-                "url": "https://arxiv.org/pdf/2406.04343"
+                "url": "https://arxiv.org/abs/2406.04343"
             }
         ]
     },
@@ -72,39 +72,39 @@
         "links": [
             {
                 "text": "Instance Augmentations",
-                "url": "https://arxiv.org/pdf/2406.08249"
+                "url": "https://arxiv.org/abs/2406.08249"
             },
             {
                 "text": "OVDiff",
-                "url": "https://arxiv.org/pdf/2306.09316"
+                "url": "https://arxiv.org/abs/2306.09316"
             },
             {
                 "text": "Object Stylization",
-                "url": "https://arxiv.org/pdf/2312.12419"
+                "url": "https://arxiv.org/abs/2312.12419"
             },
             {
                 "text": "DragAPart",
-                "url": "https://arxiv.org/pdf/2403.15382"
+                "url": "https://arxiv.org/abs/2403.15382"
             },
             {
                 "text": "HowToCaption",
-                "url": "https://arxiv.org/pdf/2310.04900"
+                "url": "https://arxiv.org/abs/2310.04900"
             },
             {
                 "text": "CoTracker",
-                "url": "https://arxiv.org/pdf/2307.07635"
+                "url": "https://arxiv.org/abs/2307.07635"
             },
             {
                 "text": "SHIC",
-                "url": "https://arxiv.org/pdf/2407.18907"
+                "url": "https://arxiv.org/abs/2407.18907"
             },
             {
                 "text": "SuperResolution",
-                "url": "https://arxiv.org/pdf/2409.00768"
+                "url": "https://arxiv.org/abs/2409.00768"
             },
             {
                 "text": "Scaling Backwards",
-                "url": "https://arxiv.org/pdf/2408.00677"
+                "url": "https://arxiv.org/abs/2408.00677"
             }
         ]
     },
@@ -129,7 +129,7 @@
         "links": [
             {
                 "text": "Paper",
-                "url": "https://arxiv.org/pdf/2402.08682"
+                "url": "https://arxiv.org/abs/2402.08682"
             }
         ]
     },
@@ -196,7 +196,7 @@
         },
         {
           "text": "S4C",
-          "url": "https://arxiv.org/pdf/2310.07522"
+          "url": "https://arxiv.org/abs/2310.07522"
         }
       ]
     },
@@ -220,6 +220,22 @@
           "url": "https://arxiv.org/abs/2306.15667"
         }
       ]
+    },
+    {
+        "date": "September 2023",
+        "title": "Associate Professor in Computer Science",
+        "description": "Appointed as Associate Professor in Computer Science at the University of Oxford, and Tutorial Fellow at Magdalen College",
+        "type": "position",
+        "links": [
+            {
+                "text": "Computer Science",
+                "url": "https://www.cs.ox.ac.uk/people/christian.rupprecht/"
+            },
+            {
+                "text": "Magdalen College",
+                "url": "https://www.magd.ox.ac.uk/people/professor-christian-rupprecht/"
+            }
+        ]
     },
     {
       "date": "June 2023",

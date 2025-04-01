@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import newsData from '@/content/news.json';
 
 const typeColors = {
@@ -18,13 +18,8 @@ const typeColors = {
 const typeLabels = {
   publication: 'Publication',
   award: 'Award',
-  presentation: 'Presentation',
-  teaching: 'Teaching',
-  service: 'Service',
   position: 'Position',
-  project: 'Project',
   education: 'Education',
-  event: 'Event'
 };
 
 // Helper function to extract year from date
@@ -54,6 +49,32 @@ export default function News() {
     new Set([mostRecentYear, secondMostRecentYear])
   );
 
+  // Add state for type filter
+  const [selectedType, setSelectedType] = useState<string | null>(null);
+
+  // Filter news items by selected type
+  const filteredGroupedNews = Object.entries(groupedNews).reduce((acc, [year, items]) => {
+    const filteredItems = selectedType
+      ? items.filter(item => item.type === selectedType)
+      : items;
+    
+    if (filteredItems.length > 0) {
+      acc[year] = filteredItems;
+    }
+    return acc;
+  }, {} as Record<string, typeof newsData.newsItems>);
+
+  // Update expanded years when filter changes
+  useEffect(() => {
+    const filteredYears = Object.entries(filteredGroupedNews)
+      .sort(([yearA], [yearB]) => parseInt(yearB) - parseInt(yearA))
+      .map(([year]) => year);
+
+    if (filteredYears.length > 0) {
+      setExpandedYears(new Set([filteredYears[0]]));
+    }
+  }, [selectedType]);
+
   const toggleYear = (year: string) => {
     setExpandedYears(prev => {
       const next = new Set(prev);
@@ -70,8 +91,35 @@ export default function News() {
     <div className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-gray-900 mb-8">News & Updates</h1>
       
+      {/* Add type filter buttons */}
+      <div className="flex flex-wrap gap-2 mb-6">
+        <button
+          onClick={() => setSelectedType(null)}
+          className={`px-3 py-1 rounded-full text-sm transition-colors ${
+            selectedType === null
+              ? 'bg-gray-900 text-white'
+              : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+          }`}
+        >
+          All
+        </button>
+        {Object.entries(typeLabels).map(([type, label]) => (
+          <button
+            key={type}
+            onClick={() => setSelectedType(type)}
+            className={`px-3 py-1 rounded-full text-sm transition-colors ${
+              selectedType === type
+                ? typeColors[type as keyof typeof typeColors]
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            }`}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+      
       <div className="space-y-8">
-        {Object.entries(groupedNews)
+        {Object.entries(filteredGroupedNews)
           .sort(([yearA], [yearB]) => parseInt(yearB) - parseInt(yearA))
           .map(([year, items]) => (
             <div key={year} className="border border-gray-200 rounded-lg overflow-hidden">
