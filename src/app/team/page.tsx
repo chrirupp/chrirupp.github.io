@@ -96,6 +96,38 @@ export default function Team() {
     <div className="space-y-8">
       <h1 className="text-3xl font-bold text-gray-900">Team</h1>
 
+      <div className="prose max-w-none">
+        <p className="text-gray-600 mb-6">
+          Interested in joining our team as a PhD student? You can apply through one of the following routes:
+        </p>
+        <ul className="list-disc pl-6 text-gray-600 mb-6">
+          <li>
+            <a href="https://www.ox.ac.uk/admissions/graduate/courses/dphil-computer-science" 
+               className="text-blue-600 hover:text-blue-800" 
+               target="_blank" 
+               rel="noopener noreferrer">
+              DPhil in Computer Science
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ox.ac.uk/admissions/graduate/courses/autonomous-intelligent-machines-and-systems" 
+               className="text-blue-600 hover:text-blue-800" 
+               target="_blank" 
+               rel="noopener noreferrer">
+              Autonomous Intelligent Machines and Systems CDT
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ox.ac.uk/admissions/graduate/courses/fundamentals-of-ai" 
+               className="text-blue-600 hover:text-blue-800" 
+               target="_blank" 
+               rel="noopener noreferrer">
+              Fundamentals of AI CDT
+            </a>
+          </li>
+        </ul>
+      </div>
+
       {/* Current Students */}
       <section>
         <h2 className="text-2xl font-semibold mb-4">Current Students</h2>
