@@ -15,6 +15,28 @@
           "year": "2024",
           "link": "https://www.cs.ox.ac.uk/teaching/courses/2023-2024/vision/"
         }
+      ],
+      "slides": [
+        { "title": "Introduction", "file": "01-Introduction.pdf" },
+        { "title": "Filtering", "file": "02-Filtering.pdf" },
+        { "title": "Fourier Transforms", "file": "03-FourierTransforms.pdf" },
+        { "title": "Restoration", "file": "04-Restoration.pdf" },
+        { "title": "Matching, Indexing & Search", "file": "05-MatchingIndexingSearch.pdf" },
+        { "title": "Classification", "file": "06-Classification.pdf" },
+        { "title": "CNNs", "file": "07-CNNs.pdf" },
+        { "title": "Transformers", "file": "08-Transformers.pdf" },
+        { "title": "Visualization & Understanding", "file": "09-VisualizationUnderstanding.pdf" },
+        { "title": "Object Detection", "file": "10-ObjectDetection.pdf" },
+        { "title": "Segmentation", "file": "11-Segmentation.pdf" },
+        { "title": "Videos", "file": "12-Videos.pdf" },
+        { "title": "Tracking", "file": "13-Tracking.pdf" },
+        { "title": "Camera Models", "file": "14-CameraModels.pdf" },
+        { "title": "MVG", "file": "15-MVG.pdf" },
+        { "title": "Generative Models", "file": "16-GenerativeModels.pdf" },
+        { "title": "Representation Learning", "file": "17-RepresentationLearning.pdf" },
+        { "title": "Unsupervised Learning", "file": "18-Unsupervised.pdf" },
+        { "title": "Vision & Language", "file": "19-VisionLanguage.pdf" },
+        { "title": "Ethics & Privacy", "file": "20-EthicsPrivacy.pdf" }
       ]
     }
   ],
