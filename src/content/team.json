@@ -161,18 +161,17 @@
       "website": "https://suny-sht.github.io/",
       "googleScholar": "cGnonsQAAAAJ",
       "coSupervisors": "A. Vedaldi"
-    },
+    }
+  ],
+  "alumni": [
     {
       "name": "Laurynas Karazija",
-      "degree": "PhD Student",
-      "startYear": 2021,
+      "degree": "PhD 2025",
       "image": null,
       "website": "https://karazijal.github.io/",
       "googleScholar": "Kyt9trwAAAAJ",
       "coSupervisors": "A. Vedaldi and I. Laina"
-    }
-  ],
-  "alumni": [
+    },
     {
       "name": "Luke Melas-Kyriazi",
       "degree": "PhD 2025",

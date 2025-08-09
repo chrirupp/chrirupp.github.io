@@ -98,7 +98,7 @@ export default function Team() {
 
       <div className="prose max-w-none">
         <p className="text-gray-600 mb-6">
-          Interested in joining our team as a PhD student? You can apply through one of the following routes:
+          Interested in joining our team as a PhD student? The PhD application process in Oxford is centralised. You will need to apply to a DPhil programme and upload your application for fixed deadlines (I have no way of processing applications sent to me directly):
         </p>
         <ul className="list-disc pl-6 text-gray-600 mb-6">
           <li>

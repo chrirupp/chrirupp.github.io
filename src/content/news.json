@@ -1,6 +1,85 @@
 {
   "newsItems": [
     {
+      "date": "July 2025",
+      "title": "One paper accepted at GCPR'25",
+      "description": "Unlocking In-Context Learning for Natural Datasets Beyond Language Modelling",
+      "type": "publication",
+      "conference": "GCPR'25",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "https://arxiv.org/abs/2501.06256"
+        }
+      ]
+    },
+    {
+      "date": "July 2025",
+      "title": "Nine papers accepted at ICCV'25",
+      "description": "Papers accepted: DIY-Corr, SEVA, AnimalClue, PuppetMaster, DSO, SSC, CoTracker3, CNS-Bench, and SynCity",
+      "type": "publication",
+      "conference": "ICCV'25",
+      "links": [
+        {
+          "text": "DIY-Corr",
+          "url": "https://arxiv.org/abs/2506.05312"
+        },
+        {
+          "text": "SEVA",
+          "url": "https://arxiv.org/abs/2503.14489"
+        },
+        {
+          "text": "AnimalClue",
+          "url": "https://arxiv.org/abs/2507.20240"
+        },
+        {
+          "text": "PuppetMaster",
+          "url": "https://arxiv.org/abs/2408.04631"
+        },
+        {
+          "text": "DSO",
+          "url": "https://arxiv.org/abs/2503.22677"
+        },
+        {
+          "text": "SSC",
+          "url": "https://arxiv.org/abs/2507.06230"
+        },
+        {
+          "text": "CoTracker3",
+          "url": "https://arxiv.org/abs/2410.11831"
+        },
+        {
+          "text": "CNS-Bench",
+          "url": "https://arxiv.org/abs/2507.17651"
+        },
+        {
+          "text": "SynCity",
+          "url": "https://arxiv.org/abs/2503.16420"
+        }
+      ]
+    },
+    {
+      "date": "June 2025",
+      "title": "Best Paper Award at CVPR'25",
+      "description": "Our paper VGGT won the best paper award at CVPR'25 out of 13000 submissions.",
+      "type": "award",
+      "conference": "CVPR'25",
+      "links": [
+        {
+          "text": "Paper",
+          "url": "https://arxiv.org/abs/2503.11651"
+        },
+        {
+          "text": "Project Page",
+          "url": "https://vgg-t.github.io/"
+        },
+        {
+          "text": "Award",
+          "url": "https://cvpr.thecvf.com/Conferences/2025/News/Awards_Press"
+        }
+      ]
+    },
+    {
         "date": "March 2025",
         "title": "Six papers accepted at CVPR'25",
         "description": "Papers accepted: AnyCam, DualPM, FLARE, Unbiasing Video Datasets, CUPS, and VGGT",
@@ -28,7 +107,7 @@
                 "url": "https://olvrhhn.github.io/"
             },
             {
-                "text": "VGGT",
+                "text": "VGGT (Best Paper Award)",
                 "url": "https://arxiv.org/abs/2503.11651"
             }
         ]
