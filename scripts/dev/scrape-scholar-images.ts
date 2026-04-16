@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer-core';
+import puppeteer from 'puppeteer';
 import sharp from 'sharp';
 import fs from 'fs';
 import path from 'path';
@@ -109,24 +109,19 @@ async function main() {
       const imgUrl = await scrapeScholarProfile(member.googleScholar);
       
       if (imgUrl) {
-        // Create filename from name (lowercase, replace spaces with hyphens)
         const filename = member.name.toLowerCase().replace(/\s+/g, '-') + '.jpg';
         const outputPath = path.join(OUTPUT_DIR, filename);
-        
+
         await downloadAndProcessImage(imgUrl, outputPath);
-        
-        // Update the image path in team.json
         member.image = `/images/team/${filename}`;
-        
+
         console.log(`✓ Successfully processed ${member.name}`);
       } else {
-        // Set image to null if no valid image was found
-        member.image = null;
-        console.log(`✗ No valid image found for ${member.name} (using placeholder)`);
+        console.log(`✗ No valid image found for ${member.name} (keeping existing)`);
       }
     } catch (error) {
       console.error(`Error processing ${member.name}:`, error);
-      member.image = null;
+      // Leave member.image unchanged on error
     }
   }
   

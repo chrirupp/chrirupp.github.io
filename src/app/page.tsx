@@ -1,12 +1,13 @@
 import profileData from '@/content/profile.json';
 import newsData from '@/content/news.json';
 import Image from 'next/image';
+import Link from 'next/link';
 import { FaGithub } from 'react-icons/fa';
 import { SiGooglescholar } from 'react-icons/si';
 
 export default function Home() {
-  // Get the 5 most recent news items
   const latestNews = newsData.newsItems.slice(0, 4);
+  const [bioBefore, bioAfter] = profileData.bio.split('(VGG)');
 
   return (
     <div className="space-y-8">
@@ -85,9 +86,9 @@ export default function Home() {
           ))}
         </div>
         <div className="mt-4 text-right">
-          <a href="/news" className="text-blue-600 hover:text-blue-800">
+          <Link href="/news" className="text-blue-600 hover:text-blue-800">
             View all news →
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -95,7 +96,9 @@ export default function Home() {
       <section className="bg-white p-6 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold mb-4">Research Interests</h2>
         <p className="text-gray-600 mb-6">
-          My research focuses on computer vision and machine learning, with particular emphasis on unsupervised learning, 3D reconstruction, and visual understanding. I am part of the Visual Geometry Group <a href="http://www.robots.ox.ac.uk/~vgg/">(VGG)</a>   at the University of Oxford.
+          {bioBefore}
+          <a href={profileData.socialLinks.vggUrl} target="_blank" rel="noopener noreferrer">(VGG)</a>
+          {bioAfter}
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import newsData from '@/content/news.json';
 
 const typeColors = {
@@ -15,65 +15,60 @@ const typeColors = {
   event: 'bg-gray-100 text-gray-800'
 };
 
-const typeLabels = {
+const typeLabels: Record<keyof typeof typeColors, string> = {
   publication: 'Publication',
   award: 'Award',
+  presentation: 'Presentation',
+  teaching: 'Teaching',
+  service: 'Service',
   position: 'Position',
+  project: 'Project',
   education: 'Education',
+  event: 'Event',
 };
 
-// Helper function to extract year from date
-const getYear = (date: string) => {
-  const year = date.split(' ').pop();
-  return year || 'Other';
-};
+const getYear = (date: string) => date.split(' ').pop() || 'Other';
 
 export default function News() {
-  // Group news items by year
-  const groupedNews = newsData.newsItems.reduce((acc, item) => {
-    const year = getYear(item.date);
-    if (!acc[year]) {
-      acc[year] = [];
-    }
-    acc[year].push(item);
-    return acc;
-  }, {} as Record<string, typeof newsData.newsItems>);
-
-  // Get the most recent year from the data
-  const years = Object.keys(groupedNews).sort((a, b) => parseInt(b) - parseInt(a));
-  const mostRecentYear = years[0];
-  const secondMostRecentYear = years[1];
-  
-  // Initialize state with the two most recent years expanded
-  const [expandedYears, setExpandedYears] = useState<Set<string>>(
-    new Set([mostRecentYear, secondMostRecentYear])
+  const groupedNews = useMemo(() =>
+    newsData.newsItems.reduce((acc, item) => {
+      const year = getYear(item.date);
+      if (!acc[year]) acc[year] = [];
+      acc[year].push(item);
+      return acc;
+    }, {} as Record<string, typeof newsData.newsItems>),
+    []
   );
 
-  // Add state for type filter
+  const sortedYears = useMemo(() =>
+    Object.keys(groupedNews).sort((a, b) => parseInt(b) - parseInt(a)),
+    [groupedNews]
+  );
+
+  const [expandedYears, setExpandedYears] = useState<Set<string>>(
+    () => new Set([sortedYears[0], sortedYears[1]].filter(Boolean))
+  );
+
   const [selectedType, setSelectedType] = useState<string | null>(null);
 
-  // Filter news items by selected type
-  const filteredGroupedNews = Object.entries(groupedNews).reduce((acc, [year, items]) => {
-    const filteredItems = selectedType
-      ? items.filter(item => item.type === selectedType)
-      : items;
-    
-    if (filteredItems.length > 0) {
-      acc[year] = filteredItems;
-    }
-    return acc;
-  }, {} as Record<string, typeof newsData.newsItems>);
+  const filteredGroupedNews = useMemo(() =>
+    Object.entries(groupedNews).reduce((acc, [year, items]) => {
+      const filteredItems = selectedType
+        ? items.filter(item => item.type === selectedType)
+        : items;
+      if (filteredItems.length > 0) acc[year] = filteredItems;
+      return acc;
+    }, {} as Record<string, typeof newsData.newsItems>),
+    [groupedNews, selectedType]
+  );
 
-  // Update expanded years when filter changes
   useEffect(() => {
-    const filteredYears = Object.entries(filteredGroupedNews)
-      .sort(([yearA], [yearB]) => parseInt(yearB) - parseInt(yearA))
-      .map(([year]) => year);
-
+    const filteredYears = Object.keys(filteredGroupedNews)
+      .sort((a, b) => parseInt(b) - parseInt(a));
     if (filteredYears.length > 0) {
       setExpandedYears(new Set([filteredYears[0]]));
     }
-  }, [selectedType]);
+  }, [filteredGroupedNews]);
 
   const toggleYear = (year: string) => {
     setExpandedYears(prev => {
@@ -90,8 +85,7 @@ export default function News() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-gray-900 mb-8">News & Updates</h1>
-      
-      {/* Add type filter buttons */}
+
       <div className="flex flex-wrap gap-2 mb-6">
         <button
           onClick={() => setSelectedType(null)}
@@ -117,7 +111,7 @@ export default function News() {
           </button>
         ))}
       </div>
-      
+
       <div className="space-y-8">
         {Object.entries(filteredGroupedNews)
           .sort(([yearA], [yearB]) => parseInt(yearB) - parseInt(yearA))
@@ -132,7 +126,7 @@ export default function News() {
                   {expandedYears.has(year) ? '▼' : '▶'}
                 </span>
               </button>
-              
+
               {expandedYears.has(year) && (
                 <div className="divide-y divide-gray-100">
                   {items.map((item, index) => (
@@ -153,9 +147,9 @@ export default function News() {
                           </span>
                         )}
                       </div>
-                      
+
                       <p className="text-gray-600 mb-4">{item.description}</p>
-                      
+
                       {item.links && item.links.length > 0 && (
                         <div className="flex flex-wrap gap-2">
                           {item.links.map((link, linkIndex) => (
@@ -180,4 +174,4 @@ export default function News() {
       </div>
     </div>
   );
-} 
+}

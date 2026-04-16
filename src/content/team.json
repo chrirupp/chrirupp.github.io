@@ -1,6 +1,33 @@
 {
   "currentStudents": [
     {
+      "name": "Chen Hou",
+      "degree": "PhD Student",
+      "startYear": 2025,
+      "image": null,
+      "website": "https://xrchitech.github.io/",
+      "googleScholar": null,
+      "coSupervisors": null
+    },
+    {
+      "name": "Yufan Deng",
+      "degree": "PhD Student",
+      "startYear": 2025,
+      "image": "/images/team/yufan-deng.jpg",
+      "website": "https://yufandeng.com/",
+      "googleScholar": "w6L9BsIAAAAJ",
+      "coSupervisors": null
+    },
+    {
+      "name": "Shangzhan Zhang",
+      "degree": "PhD Student",
+      "startYear": 2025,
+      "image": "/images/team/shangzhan-zhang.jpg",
+      "website": "https://zhanghe3z.github.io/",
+      "googleScholar": "FUDsZkEAAAAJ",
+      "coSupervisors": null
+    },
+    {
       "name": "Gabrijel Boduljak",
       "degree": "PhD Student",
       "startYear": 2024,
@@ -49,7 +76,7 @@
       "name": "Orest Kupyn",
       "degree": "PhD Student",
       "startYear": 2023,
-      "image": null,
+      "image": "/images/team/orest-kupyn.jpg",
       "website": null,
       "googleScholar": "KoC7bP4AAAAJ",
       "coSupervisors": null
@@ -67,7 +94,7 @@
       "name": "Olaf Dünkel",
       "degree": "ELLIS PhD Student",
       "startYear": 2023,
-      "image": null,
+      "image": "/images/team/olaf-dünkel.jpg",
       "website": "https://odunkel.github.io/",
       "googleScholar": "oYwYrykAAAAJ",
       "coSupervisors": "A. Kortylewski and C. Theobalt"
@@ -91,10 +118,10 @@
       "coSupervisors": "P. Torr"
     },
     {
-      "name": "Jensen Zhou ",
+      "name": "Jensen Zhou",
       "degree": "PhD Student",
       "startYear": 2022,
-      "image": "/images/team/jensen-zhou-.jpg",
+      "image": "/images/team/jensen-zhou.jpg",
       "website": "https://shallowtoil.github.io/",
       "googleScholar": "AoDJADEAAAAJ",
       "coSupervisors": "P. Torr"
@@ -136,15 +163,6 @@
       "coSupervisors": "D. Cremers"
     },
     {
-      "name": "Nikita Karaev",
-      "degree": "PhD Student",
-      "startYear": 2021,
-      "image": "/images/team/nikita-karaev.jpg",
-      "website": "https://nikitakaraevv.github.io/",
-      "googleScholar": "DW-X-Y8AAAAJ",
-      "coSupervisors": null
-    },
-    {
       "name": "Nina Shvetsova",
       "degree": "ELLIS PhD Student",
       "startYear": 2021,
@@ -152,18 +170,25 @@
       "website": "https://ninatu.github.io/",
       "googleScholar": "qZtU1L4AAAAJ",
       "coSupervisors": "H. Kuehne"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Nikita Karaev",
+      "degree": "PhD 2026",
+      "image": "/images/team/nikita-karaev.jpg",
+      "website": "https://nikitakaraevv.github.io/",
+      "googleScholar": "DW-X-Y8AAAAJ",
+      "coSupervisors": null
     },
     {
       "name": "Aleksandar Shtedritski",
-      "degree": "PhD Student",
-      "startYear": 2021,
+      "degree": "PhD 2025",
       "image": "/images/team/aleksandar-shtedritski.jpg",
       "website": "https://suny-sht.github.io/",
       "googleScholar": "cGnonsQAAAAJ",
       "coSupervisors": "A. Vedaldi"
-    }
-  ],
-  "alumni": [
+    },
     {
       "name": "Laurynas Karazija",
       "degree": "PhD 2025",

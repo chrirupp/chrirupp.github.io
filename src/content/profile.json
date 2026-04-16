@@ -3,6 +3,7 @@
   "title": "Associate Professor of Computer Science",
   "department": "Department of Computer Science",
   "university": "University of Oxford",
+  "bio": "My research focuses on computer vision and machine learning, with particular emphasis on unsupervised learning, 3D reconstruction, and visual understanding. I am part of the Visual Geometry Group (VGG) at the University of Oxford.",
   "researchAreas": [
     "Computer Vision",
     "Machine Learning",
@@ -10,6 +11,7 @@
   ],
   "socialLinks": {
     "googleScholar": "https://scholar.google.com/citations?user=IrYlproAAAAJ",
-    "github": "https://github.com/chrirupp"
+    "github": "https://github.com/chrirupp",
+    "vggUrl": "http://www.robots.ox.ac.uk/~vgg/"
   }
 } 

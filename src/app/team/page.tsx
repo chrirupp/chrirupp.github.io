@@ -84,8 +84,32 @@ function TeamMemberImage({ member }: { member: TeamMember }) {
   return <PlaceholderImage name={member.name} />;
 }
 
+function TeamMemberCard({ member, showStartYear = false }: { member: TeamMember; showStartYear?: boolean }) {
+  return (
+    <div className="bg-white p-6 rounded-lg shadow-md">
+      <div className="flex items-start space-x-4">
+        <TeamMemberImage member={member} />
+        <div>
+          <h3 className="text-xl font-medium mb-1">{member.name}</h3>
+          <p className="text-gray-600">
+            {member.degree}{showStartYear && member.startYear && ` (${member.startYear}-)`}
+          </p>
+          {member.coSupervisors && (
+            <p className="text-sm text-gray-500 mt-1">
+              with {member.coSupervisors}
+            </p>
+          )}
+          <div className="flex flex-wrap gap-2">
+            {member.website && <WebsiteButton url={member.website} />}
+            {member.googleScholar && <GoogleScholarButton url={member.googleScholar} />}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function Team() {
-  // Sort current students by startYear (descending) and then by name (alphabetically)
   const sortedCurrentStudents = [...typedTeamData.currentStudents].sort((a, b) => {
     const yearDiff = (b.startYear || 0) - (a.startYear || 0);
     if (yearDiff !== 0) return yearDiff;
@@ -102,25 +126,25 @@ export default function Team() {
         </p>
         <ul className="list-disc pl-6 text-gray-600 mb-6">
           <li>
-            <a href="https://www.ox.ac.uk/admissions/graduate/courses/dphil-computer-science" 
-               className="text-blue-600 hover:text-blue-800" 
-               target="_blank" 
+            <a href="https://www.ox.ac.uk/admissions/graduate/courses/dphil-computer-science"
+               className="text-blue-600 hover:text-blue-800"
+               target="_blank"
                rel="noopener noreferrer">
               DPhil in Computer Science
             </a>
           </li>
           <li>
-            <a href="https://www.ox.ac.uk/admissions/graduate/courses/autonomous-intelligent-machines-and-systems" 
-               className="text-blue-600 hover:text-blue-800" 
-               target="_blank" 
+            <a href="https://www.ox.ac.uk/admissions/graduate/courses/autonomous-intelligent-machines-and-systems"
+               className="text-blue-600 hover:text-blue-800"
+               target="_blank"
                rel="noopener noreferrer">
               Autonomous Intelligent Machines and Systems CDT
             </a>
           </li>
           <li>
-            <a href="https://www.ox.ac.uk/admissions/graduate/courses/fundamentals-of-ai" 
-               className="text-blue-600 hover:text-blue-800" 
-               target="_blank" 
+            <a href="https://www.ox.ac.uk/admissions/graduate/courses/fundamentals-of-ai"
+               className="text-blue-600 hover:text-blue-800"
+               target="_blank"
                rel="noopener noreferrer">
               Fundamentals of AI CDT
             </a>
@@ -128,61 +152,23 @@ export default function Team() {
         </ul>
       </div>
 
-      {/* Current Students */}
       <section>
         <h2 className="text-2xl font-semibold mb-4">Current Students</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {sortedCurrentStudents.map((student, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-              <div className="flex items-start space-x-4">
-                <TeamMemberImage member={student} />
-                <div>
-                  <h3 className="text-xl font-medium mb-1">{student.name}</h3>
-                  <p className="text-gray-600">
-                    {student.degree} {student.startYear && `(${student.startYear}-)`}
-                  </p>
-                  {student.coSupervisors && (
-                    <p className="text-sm text-gray-500 mt-1">
-                      with {student.coSupervisors}
-                    </p>
-                  )}
-                  <div className="flex flex-wrap gap-2">
-                    {student.website && <WebsiteButton url={student.website} />}
-                    {student.googleScholar && <GoogleScholarButton url={student.googleScholar} />}
-                  </div>
-                </div>
-              </div>
-            </div>
+          {sortedCurrentStudents.map((student) => (
+            <TeamMemberCard key={student.name} member={student} showStartYear />
           ))}
         </div>
       </section>
 
-      {/* Alumni */}
       <section>
         <h2 className="text-2xl font-semibold mb-4">Alumni</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {typedTeamData.alumni.map((alum, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-              <div className="flex items-start space-x-4">
-                <TeamMemberImage member={alum} />
-                <div>
-                  <h3 className="text-xl font-medium mb-1">{alum.name}</h3>
-                  <p className="text-gray-600">{alum.degree}</p>
-                  {alum.coSupervisors && (
-                    <p className="text-sm text-gray-500 mt-1">
-                      with {alum.coSupervisors}
-                    </p>
-                  )}
-                  <div className="flex flex-wrap gap-2">
-                    {alum.website && <WebsiteButton url={alum.website} />}
-                    {alum.googleScholar && <GoogleScholarButton url={alum.googleScholar} />}
-                  </div>
-                </div>
-              </div>
-            </div>
+          {typedTeamData.alumni.map((alum) => (
+            <TeamMemberCard key={alum.name} member={alum} />
           ))}
         </div>
       </section>
     </div>
   );
-} 
+}

@@ -1,6 +1,71 @@
 {
   "newsItems": [
     {
+      "date": "September 2025",
+      "title": "ERC Starting Grant awarded",
+      "description": "Awarded an ERC Starting Grant for the project 'Volute — Visual Omniversal Learning from Universal Teachers'. The grant is worth up to €1.5 million over five years and addresses the shortage of labelled training data for large computer vision models.",
+      "type": "award",
+      "links": [
+        {
+          "text": "Oxford announcement",
+          "url": "https://www.ox.ac.uk/news/2025-09-04-outstanding-early-career-researchers-awarded-european-research-council-funding"
+        },
+        {
+          "text": "CS Department",
+          "url": "https://www.cs.ox.ac.uk/news/2482-full.html"
+        },
+        {
+          "text": "ERC announcement",
+          "url": "https://erc.europa.eu/news-events/news/erc-2025-starting-grants-results"
+        }
+      ]
+    },
+    {
+      "date": "January 2026",
+      "title": "Paper accepted at Medical Image Analysis",
+      "description": "Beyond Benchmarks of IUGC: Rethinking Requirements of Deep Learning Method for Intrapartum Ultrasound Biometry from Fetal Ultrasound Videos",
+      "type": "publication",
+      "journal": "Medical Image Analysis"
+    },
+    {
+      "date": "April 2026",
+      "title": "Six papers accepted at CVPR'26",
+      "description": "Papers accepted: VGGT-Omega, Particulate, Scene-Centric Unsupervised Video Panoptic Segmentation, LagerNVS, LitePT, and SceneScribe-1M",
+      "type": "publication",
+      "conference": "CVPR'26",
+      "links": [
+        {
+          "text": "Particulate",
+          "url": "https://arxiv.org/abs/2512.11798"
+        },
+        {
+          "text": "LagerNVS",
+          "url": "https://arxiv.org/abs/2603.20176"
+        },
+        {
+          "text": "LitePT",
+          "url": "https://arxiv.org/abs/2512.13689"
+        }
+      ]
+    },
+    {
+      "date": "January 2026",
+      "title": "Two papers accepted at ICLR'26",
+      "description": "Papers accepted: What Happens Next? and S3OD",
+      "type": "publication",
+      "conference": "ICLR'26",
+      "links": [
+        {
+          "text": "What Happens Next?",
+          "url": "https://arxiv.org/abs/2509.21592"
+        },
+        {
+          "text": "S3OD",
+          "url": "https://arxiv.org/abs/2510.21605"
+        }
+      ]
+    },
+    {
       "date": "July 2025",
       "title": "One paper accepted at GCPR'25",
       "description": "Unlocking In-Context Learning for Natural Datasets Beyond Language Modelling",
