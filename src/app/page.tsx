@@ -97,7 +97,7 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">Research Interests</h2>
         <p className="text-gray-600 mb-6">
           {bioBefore}
-          <a href={profileData.socialLinks.vggUrl} target="_blank" rel="noopener noreferrer">(VGG)</a>
+          <a href={profileData.socialLinks.vggUrl} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">(VGG)</a>
           {bioAfter}
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

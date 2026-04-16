@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# chrirupp.github.io
 
-## Getting Started
+Personal academic website for [Christian Rupprecht](https://chrirupp.github.io), built with Next.js and deployed via GitHub Pages.
 
-First, run the development server:
+## Updating content
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+All content lives in `src/content/` as JSON files — no code changes needed for routine updates.
+
+| File | What to edit |
+|------|-------------|
+| `profile.json` | Name, title, bio, social links |
+| `news.json` | News items (publications, awards, etc.) |
+| `teaching.json` | Courses and lecture slides |
+| `team.json` | Current students and alumni |
+
+### Adding a news item
+
+Add an entry to the top of `newsItems` in `news.json`:
+
+```json
+{
+  "date": "Month YYYY",
+  "title": "...",
+  "description": "...",
+  "type": "publication",
+  "conference": "VENUE'YY",
+  "links": [{ "text": "Paper", "url": "https://arxiv.org/..." }]
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Valid types: `publication`, `award`, `presentation`, `teaching`, `service`, `position`, `project`, `education`, `event`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Adding a team member
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Add an entry to `currentStudents` in `team.json`, then run the photo scraper (see below).
 
-## Learn More
+### Adding course slides
 
-To learn more about Next.js, take a look at the following resources:
+Place PDF files in `public/teaching/YEAR/` and add entries to the `slides` array in `teaching.json`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm install
+npm run dev       # Start dev server at localhost:3000
+npm run build     # Build static export to /out
+```
 
-## Deploy on Vercel
+## Scraping team photos
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Fetches profile photos from Google Scholar for all team members who have a `googleScholar` ID set:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run dev:scrape-scholar-images
+```
+
+This updates `team.json` image paths and saves photos to `public/images/team/`.
+
+## Deployment
+
+Pushing to `master` triggers GitHub Pages deployment automatically.
