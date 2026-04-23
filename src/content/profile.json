@@ -3,7 +3,7 @@
   "title": "Associate Professor of Computer Science",
   "department": "Department of Computer Science",
   "university": "University of Oxford",
-  "bio": "My research focuses on computer vision and machine learning, with particular emphasis on unsupervised learning, 3D reconstruction, and visual understanding. I am part of the Visual Geometry Group (VGG) at the University of Oxford.",
+  "bio": "I am an Associate Professor of Computer Science at the University of Oxford and one of the leads of the Visual Geometry Group (VGG). My research focuses on computer vision and machine learning, particularly 3D reconstruction, generative models, and visual understanding. I received my PhD in 2018 from the Technical University of Munich. My work has received multiple awards, including two Best Paper Awards at CVPR. I am also Chief Research Officer at Third Dimension AI, a company building spatial generation technologies at the intersection of 3D and world modelling.",
   "researchAreas": [
     "Computer Vision",
     "Machine Learning",

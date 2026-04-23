@@ -1,6 +1,15 @@
 {
   "currentStudents": [
     {
+      "name": "Ben Kaye",
+      "degree": "PhD Student",
+      "startYear": 2024,
+      "image": "/images/team/ben-kaye.jpg",
+      "website": "https://ben-kaye.github.io/",
+      "googleScholar": "2alhGi4AAAAJ",
+      "coSupervisors": "A. Vedaldi"
+    },
+    {
       "name": "Chen Hou",
       "degree": "PhD Student",
       "startYear": 2025,

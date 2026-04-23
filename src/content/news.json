@@ -1,6 +1,18 @@
 {
   "newsItems": [
     {
+      "date": "March 2026",
+      "title": "Keynote at 3DV 2026",
+      "description": "Gave a keynote talk \"3D Vision: Done & Dust3d?\" at the International Conference on 3D Vision (3DV 2026) in Vancouver.",
+      "type": "talk",
+      "links": [
+        {
+          "text": "Recording",
+          "url": "https://www.youtube.com/watch?v=HyXHEWl99tU"
+        }
+      ]
+    },
+    {
       "date": "September 2025",
       "title": "ERC Starting Grant awarded",
       "description": "Awarded an ERC Starting Grant for the project 'Volute — Visual Omniversal Learning from Universal Teachers'. The grant is worth up to €1.5 million over five years and addresses the shortage of labelled training data for large computer vision models.",
