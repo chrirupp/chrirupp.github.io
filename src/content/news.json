@@ -1,6 +1,44 @@
 {
   "newsItems": [
     {
+      "date": "June 2026",
+      "title": "Four papers accepted at ECCV'26",
+      "description": "Papers accepted: MMDiff, Syn4D, SynCity 3000, and Geometric Priors in 3D Reconstruction",
+      "type": "publication",
+      "conference": "ECCV'26",
+      "links": [
+        {
+          "text": "MMDiff",
+          "url": "https://arxiv.org/abs/2606.16673"
+        },
+        {
+          "text": "Syn4D",
+          "url": "https://arxiv.org/abs/2605.05207"
+        },
+        {
+          "text": "SynCity 3000",
+          "url": "https://arxiv.org/abs/2607.05392"
+        },
+        {
+          "text": "Geometric Priors in 3D Reconstruction",
+          "url": "https://arxiv.org/abs/2512.11508"
+        }
+      ]
+    },
+    {
+      "date": "April 2026",
+      "title": "Paper accepted at ICML'26",
+      "description": "Paper accepted: VFMF",
+      "type": "publication",
+      "conference": "ICML'26",
+      "links": [
+        {
+          "text": "VFMF",
+          "url": "https://arxiv.org/abs/2512.11225"
+        }
+      ]
+    },
+    {
       "date": "March 2026",
       "title": "Keynote at 3DV 2026",
       "description": "Gave a keynote talk \"3D Vision: Done & Dust3d?\" at the International Conference on 3D Vision (3DV 2026) in Vancouver.",
